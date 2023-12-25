@@ -17,19 +17,22 @@ session_start();
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
 
-	<link rel="stylesheet" type="text/css" href="datatables/datatables.css"/>
-	<script type="text/javascript" src="datatables/datatables.js"></script>
-
+	<script defer src="https://code.jquery.com/jquery-3.7.0.js"></script>
+	<script defer src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+	<script defer src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script defer src="js/script.js"></script>
 
 	<title>CRUD Kursus & Materi</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm rounded">
 		<div class="container container-fluid">
 		    <a class="navbar-brand" href="#"> <i class="fa-solid fa-code"></i> CRUD</a>
 		</div>
@@ -93,11 +96,5 @@ session_start();
     <footer>
         <p>&copy; Copyright Muhammad Hafiz - Dicoding</p>
     </footer>
-
-    <script type="text/javascript">
-        $(document).ready( function () {
-            $('#dt_material').DataTable();
-        } );
-    </script>
 </body>
 </html>
