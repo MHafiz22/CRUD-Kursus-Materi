@@ -90,7 +90,7 @@ session_start();
 								<a href="kelola.php?ubah=<?php echo $result['id_course']; ?>" type="button" class="btn btn-success btn-sm">
 									<i class="fa fa-pencil"></i> Edit
 								</a>
-								<a href="proses.php?hapus=<?php echo $result['id_course']; ?>" type="button" class="btn btn-danger btn-sm" onClick="return confirm('Apakah anda yakin ingin menghapus data tersebut?')">
+								<a href="proses.php?hapus=<?php echo $result['id_course']; ?>" type="button" class="btn btn-danger btn-sm" onClick="return confirm('Apakah anda yakin ingin menghapus kursus tersebut?')">
 									<i class="fa fa-trash"></i> Delete
 								</a>
 							</td>
