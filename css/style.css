@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300&family=Roboto+Condensed:wght@700&display=swap");
 
-body {
+* {
   font-family: "Poppins", sans-serif;
+}
+
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -9,6 +12,10 @@ body {
 
 h2 {
   font-family: "Montserrat", serif;
+}
+
+nav {
+  background-color: #e3f2fd;
 }
 
 .navbar-brand {
