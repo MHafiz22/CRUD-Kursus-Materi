@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300&family=Roboto+Condensed:wght@700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h2 {
+  font-family: "Montserrat", serif;
+}
+
+.navbar-brand {
+  font-family: "Roboto Condensed", cursive;
+  color: black;
+}
+
+thead {
+  background-color: #e3f2fd;
+}
+
+footer {
+  background-color: #f7f8fc;
+  padding: 1rem 0;
+  position: relative;
+  margin-top: auto;
+}
+
+footer p {
+  text-align: center;
+}
