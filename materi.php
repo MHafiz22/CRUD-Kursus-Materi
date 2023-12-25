@@ -94,7 +94,7 @@ session_start();
     </div>
 
     <footer>
-        <p>&copy; Copyright Muhammad Hafiz - Dicoding</p>
+        <p>&copy; Copyright Muhammad Hafiz - CRUD</p>
     </footer>
 </body>
 </html>
